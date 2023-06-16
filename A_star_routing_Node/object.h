@@ -26,11 +26,14 @@ class Node {
 public:
     Node(Point point, int g, int h, Node* parent);
     ~Node();
-    
+    int getG() const { return g;}
+    int getH() const { return h;}
+    Point getPoint() const { return point;}
+    Node * getParent() const { return parent;}
 private:
+    Point point;
     int g;
     int h;
-    Point point;
     Node * parent;
 };
 }

@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/link/A_star_routing_Node/A_star_routing_Node/aStarUtils.cc
-aStarUtils.h
--
-
-A_star_routing_Node/aStarUtils.h
-iostream
--
-vector
--
-queue
--
-cmath
--
+/home/ubuntu/link/A_star_routing_Node/A_star_routing_Node/object.cc
 ./object.h
 -
 
