@@ -6,12 +6,13 @@
 #include <vector>
 #include <queue>
 #include <cmath>
-#include <./object.h>
+#include <object.h>
 
 namespace bobliew {
 
 class aStarUtils {
 public: 
+    aStarUtils() {}
     int distance(Point a, Point b);
     bool isInMap(Point point, int rows, int cols);
     bool isPassable(Point point, std::vector<std::vector<int>>& map);

@@ -57,29 +57,29 @@ include CMakeFiles/my_executable.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/my_executable.dir/flags.make
 
-CMakeFiles/my_executable.dir/main.cpp.o: CMakeFiles/my_executable.dir/flags.make
-CMakeFiles/my_executable.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/link/A_star_routing_Node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_executable.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_executable.dir/main.cpp.o -c /home/ubuntu/link/A_star_routing_Node/main.cpp
+CMakeFiles/my_executable.dir/test_1.cpp.o: CMakeFiles/my_executable.dir/flags.make
+CMakeFiles/my_executable.dir/test_1.cpp.o: test_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/link/A_star_routing_Node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_executable.dir/test_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_executable.dir/test_1.cpp.o -c /home/ubuntu/link/A_star_routing_Node/test_1.cpp
 
-CMakeFiles/my_executable.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_executable.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/link/A_star_routing_Node/main.cpp > CMakeFiles/my_executable.dir/main.cpp.i
+CMakeFiles/my_executable.dir/test_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_executable.dir/test_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/link/A_star_routing_Node/test_1.cpp > CMakeFiles/my_executable.dir/test_1.cpp.i
 
-CMakeFiles/my_executable.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_executable.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/link/A_star_routing_Node/main.cpp -o CMakeFiles/my_executable.dir/main.cpp.s
+CMakeFiles/my_executable.dir/test_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_executable.dir/test_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/link/A_star_routing_Node/test_1.cpp -o CMakeFiles/my_executable.dir/test_1.cpp.s
 
 # Object files for target my_executable
 my_executable_OBJECTS = \
-"CMakeFiles/my_executable.dir/main.cpp.o"
+"CMakeFiles/my_executable.dir/test_1.cpp.o"
 
 # External object files for target my_executable
 my_executable_EXTERNAL_OBJECTS = \
 "/home/ubuntu/link/A_star_routing_Node/A_star_routing_Node/CMakeFiles/A_star_routing_Node.dir/aStarUtils.cc.o" \
 "/home/ubuntu/link/A_star_routing_Node/A_star_routing_Node/CMakeFiles/A_star_routing_Node.dir/object.cc.o"
 
-my_executable: CMakeFiles/my_executable.dir/main.cpp.o
+my_executable: CMakeFiles/my_executable.dir/test_1.cpp.o
 my_executable: A_star_routing_Node/CMakeFiles/A_star_routing_Node.dir/aStarUtils.cc.o
 my_executable: A_star_routing_Node/CMakeFiles/A_star_routing_Node.dir/object.cc.o
 my_executable: CMakeFiles/my_executable.dir/build.make

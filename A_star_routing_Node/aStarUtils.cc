@@ -1,6 +1,8 @@
+
 #include <aStarUtils.h>
 
 namespace bobliew {
+
 int aStarUtils::distance(Point a, Point b) {
     return std::sqrt(std::pow(a.getX() - b.getX(), 2) + pow(a.getY() - b.getY(), 2));
 }
@@ -9,7 +11,7 @@ bool aStarUtils::isInMap(Point point, int rows, int cols) {
     return point.getX() >= 0 && point.getX() < rows && point.getY() >= 0 && point.getY() < cols; 
 }
 
-bool isPassable(Point point, std::vector<std::vector<int>>& map) {
+bool aStarUtils::isPassable(Point point, std::vector<std::vector<int>>& map) {
     return map[point.getX()][point.getY()] == 0;
 }
 

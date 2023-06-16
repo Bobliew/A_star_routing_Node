@@ -136,32 +136,32 @@ A_star_routing_Node/fast:
 	$(MAKE) -f A_star_routing_Node/CMakeFiles/A_star_routing_Node.dir/build.make A_star_routing_Node/CMakeFiles/A_star_routing_Node.dir/build
 .PHONY : A_star_routing_Node/fast
 
-main.o: main.cpp.o
+test_1.o: test_1.cpp.o
 
-.PHONY : main.o
+.PHONY : test_1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/my_executable.dir/build.make CMakeFiles/my_executable.dir/main.cpp.o
-.PHONY : main.cpp.o
+test_1.cpp.o:
+	$(MAKE) -f CMakeFiles/my_executable.dir/build.make CMakeFiles/my_executable.dir/test_1.cpp.o
+.PHONY : test_1.cpp.o
 
-main.i: main.cpp.i
+test_1.i: test_1.cpp.i
 
-.PHONY : main.i
+.PHONY : test_1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/my_executable.dir/build.make CMakeFiles/my_executable.dir/main.cpp.i
-.PHONY : main.cpp.i
+test_1.cpp.i:
+	$(MAKE) -f CMakeFiles/my_executable.dir/build.make CMakeFiles/my_executable.dir/test_1.cpp.i
+.PHONY : test_1.cpp.i
 
-main.s: main.cpp.s
+test_1.s: test_1.cpp.s
 
-.PHONY : main.s
+.PHONY : test_1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/my_executable.dir/build.make CMakeFiles/my_executable.dir/main.cpp.s
-.PHONY : main.cpp.s
+test_1.cpp.s:
+	$(MAKE) -f CMakeFiles/my_executable.dir/build.make CMakeFiles/my_executable.dir/test_1.cpp.s
+.PHONY : test_1.cpp.s
 
 # Help Target
 help:
@@ -173,9 +173,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... my_executable"
 	@echo "... A_star_routing_Node"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... test_1.o"
+	@echo "... test_1.i"
+	@echo "... test_1.s"
 .PHONY : help
 
 

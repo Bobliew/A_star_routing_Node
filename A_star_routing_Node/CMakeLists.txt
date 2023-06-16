@@ -5,4 +5,4 @@ add_library(A_star_routing_Node OBJECT aStarUtils.cc object.cc)
 target_include_directories(A_star_routing_Node PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 # 设置编译选项
-target_compile_options(A_star_routing_Node PRIVATE -Wall -Wextra -pedantic)
+target_compile_options(A_star_routing_Node PRIVATE -Wall -Wextra -pedantic -nostartfiles)
