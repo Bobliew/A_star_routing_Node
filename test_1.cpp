@@ -30,6 +30,8 @@ int run() {
 }
 
 int main(int argc, char* argv[]) {
-    bobliew::run();
+    for(int i = 0; i < 100; ++i) {
+        bobliew::run();
+    }
     return 0;
 }
